@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Generated artifacts (recreate with: python src/train.py)
+models/*.pkl
+data/*.csv
+
+# Editors / OS
+.idea/
+.DS_Store
+Thumbs.db
